@@ -1,0 +1,41 @@
+{
+  "appId": "com.github.dyu.testelectronupdaterexample",
+  "generateUpdatesFilesForAllChannels": true,
+  "asar": false,
+  "directories": {
+    "output": "dist",
+    "buildResources": "resources"
+  },
+  "files": ["main.js", "package.json", "static/**/*"],
+  "publish": "github",
+  "linux": {
+    "category": "Network",
+    "target": [
+      {
+        "target": "AppImage",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "mac": {
+    "category": "public.app-category.utilities",
+    "target": [
+      {
+        "target": "dmg",
+        "arch": ["x64"]
+      },
+      {
+        "target": "zip",
+        "arch": ["x64"]
+      },
+    ]
+  }
+}

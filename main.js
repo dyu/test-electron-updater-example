@@ -30,7 +30,7 @@ if (process.platform === 'darwin') {
     label: name,
     submenu: [
       {
-        label: 'About ' + name,
+        label: 'About:::' + name,
         role: 'about'
       },
       {
