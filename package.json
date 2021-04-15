@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "electron .",
+    "pkg-mac": "electron-builder -m",
     "publish": "electron-builder -p always -mw -l AppImage"
   },
   "devDependencies": {
