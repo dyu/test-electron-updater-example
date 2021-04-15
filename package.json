@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "publish": "electron-builder -mwl -p always"
+    "publish": "electron-builder -p always -mw -l AppImage"
   },
   "devDependencies": {
     "electron": "^12.0.4",
