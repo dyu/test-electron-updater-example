@@ -1,10 +1,10 @@
 {
   "appId": "com.github.dyu.testelectronupdaterexample",
   "generateUpdatesFilesForAllChannels": true,
-  "asar": false,
+  "asar": true,
   "directories": {
     "output": "dist",
-    "buildResources": "resources"
+    "buildResources": ""buildResources": "static/icons""
   },
   "files": ["main.js", "package.json", "static/**/*"],
   "publish": "github",
