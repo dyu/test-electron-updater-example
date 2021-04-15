@@ -1,6 +1,6 @@
 {
   "name": "test-electron-updater-example",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "main.js",
   "description": "test-electron-updater example project",
   "author": "dyu",
