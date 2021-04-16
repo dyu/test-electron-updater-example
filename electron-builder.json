@@ -1,7 +1,7 @@
 {
   "appId": "com.github.dyu.testelectronupdaterexample",
   "generateUpdatesFilesForAllChannels": true,
-  "asar": true,
+  "asar": false,
   "directories": {
     "output": "dist",
     "buildResources": "static/icons"
