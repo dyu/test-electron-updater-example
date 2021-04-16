@@ -6,7 +6,7 @@
     "output": "dist",
     "buildResources": "static/icons"
   },
-  "files": ["main.js", "package.json", "static/**/*"],
+  "files": ["main.js", "package.json", "version.html", "static/**/*"],
   "publish": "github",
   "linux": {
     "category": "Network",
