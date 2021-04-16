@@ -1,9 +1,13 @@
 {
   "name": "test-electron-updater-example",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "main.js",
   "description": "test-electron-updater example project",
-  "author": "dyu",
+  "author": {
+    "name": "dyu",
+    "email": "david.yu.ftw@gmail.com",
+    "url": "https://dyuproject.com"
+  },
   "private": true,
   "productName": "TestElectronUpdater",
   "repository": {
@@ -13,6 +17,7 @@
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder -mwl",
+    "dist-linux": "electron-builder -l",
     "publish": "electron-builder -p always -mwl"
   },
   "devDependencies": {
